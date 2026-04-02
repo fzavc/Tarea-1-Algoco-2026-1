@@ -1,0 +1,9 @@
+Se detalla a continuación la infraestructura utilizada en el proyecto:\\
+El hardware consiste en Procesador Intel(R) Core(TM) Ultra 5 125H (3.60 GHz); 16 GB de memoria RAM instalada; Almacenamiento en SSD NVMe.\\
+El entorno de software corresponde a Window 11 Home Single Language 24H2, ejecutando Ubuntu 24.04.2 (WSL 2), compilador g++ 13.3.0 con estándar \texttt{C++17}. Los scripts de generación de casos de prueba, y generación de gráficos fueron escritos en \texttt{Python 3.12.3}, y se ejecutan mediante un \texttt{Makefile}.
+
+Para el experimento, solo se considera los casos de prueba dados en el enunciado, los cuales son generados por los archivos \texttt{arraygenerator.py}, y \texttt{matrixgenerator.py}.
+\begin{itemize}
+  \item \textbf{Ordenamiento:} Los datos son números de tipo entero, el tamaño de la muestra es:  $n = {10^{1}, 10^{3}, 10^{5}, 10^{7}}$. Los arreglos son de tipo: ascendente, descendente, y aleatorio.
+  \item \textbf{Multiplicación de matrices:} Los datos son números de tipo entero, la muestra incluye matrices n x n, donde: $n = {2^{4}, 2^{6}, 2^{8}, 2^{10}}$. Las matrices de tipo: densas, diagonales, y dispersas.
+\end{itemize}
