@@ -9,6 +9,9 @@ en data/measurements.
 Bibliografía:
 -https://www.geeksforgeeks.org/cpp/chrono-in-c/
 -https://en.cppreference.com/w/cpp/chrono.html
+
+Autora: Francisca Zavala Cortés, rol 202173632-8
+Tarea 1 Algoritmos y Complejidad 2026-1
 */
 
 #include <iostream>
